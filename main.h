@@ -15,8 +15,7 @@
 #define Null_string "(null)"
 
 /**
- * struct parameters - structure for  parameters.
- * struct specifier - structure for  specifier
+ * struct parameters - structure for parameters.
  *
  * @unsign: flags if the value is unsigned.
  * @l_modifier: if l_modifier is specified, on.
@@ -27,7 +26,7 @@
  * @plus_flag: if flag specified, on.
  * @minus_flag: if flag specified, on.
  * @width: set maximum field length.
- * @specifier: set the maximum no. of digits.
+ * @precision: set the maximum no. of digits.
  */
 typedef struct parameters
 {
@@ -46,7 +45,7 @@ typedef struct parameters
 } parameter_p;
 
 /**
- * struct specifier - structure token
+ * struct specifier - Structure for specifier.
  *
  * @specifier: format token
  * @f: function
